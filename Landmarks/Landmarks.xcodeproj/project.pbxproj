@@ -12,6 +12,7 @@
 		258D69CA2B3ADC7800FA01B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258D69C92B3ADC7800FA01B1 /* Assets.xcassets */; };
 		258D69CD2B3ADC7800FA01B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258D69CC2B3ADC7800FA01B1 /* Preview Assets.xcassets */; };
 		258D69D92B4442BE00FA01B1 /* EmojiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D69D82B4442BE00FA01B1 /* EmojiImage.swift */; };
+		CEDF521D2B706DC700EF90EC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF521C2B706DC700EF90EC /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		258D69C92B3ADC7800FA01B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		258D69CC2B3ADC7800FA01B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		258D69D82B4442BE00FA01B1 /* EmojiImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiImage.swift; sourceTree = "<group>"; };
+		CEDF521C2B706DC700EF90EC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				258D69C52B3ADC7700FA01B1 /* LandmarksApp.swift */,
 				258D69C72B3ADC7700FA01B1 /* ContentView.swift */,
+				CEDF521C2B706DC700EF90EC /* MapView.swift */,
 				258D69C92B3ADC7800FA01B1 /* Assets.xcassets */,
 				258D69D82B4442BE00FA01B1 /* EmojiImage.swift */,
 				258D69CB2B3ADC7800FA01B1 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				258D69C82B3ADC7700FA01B1 /* ContentView.swift in Sources */,
+				CEDF521D2B706DC700EF90EC /* MapView.swift in Sources */,
 				258D69C62B3ADC7700FA01B1 /* LandmarksApp.swift in Sources */,
 				258D69D92B4442BE00FA01B1 /* EmojiImage.swift in Sources */,
 			);
