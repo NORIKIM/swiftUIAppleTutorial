@@ -58,8 +58,8 @@
 				258D69C52B3ADC7700FA01B1 /* LandmarksApp.swift */,
 				258D69C72B3ADC7700FA01B1 /* ContentView.swift */,
 				CEDF521C2B706DC700EF90EC /* MapView.swift */,
-				258D69C92B3ADC7800FA01B1 /* Assets.xcassets */,
 				258D69D82B4442BE00FA01B1 /* EmojiImage.swift */,
+				258D69C92B3ADC7800FA01B1 /* Assets.xcassets */,
 				258D69CB2B3ADC7800FA01B1 /* Preview Content */,
 			);
 			path = Landmarks;
