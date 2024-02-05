@@ -2,7 +2,7 @@
 //  MapView.swift
 //  Landmarks
 //
-//  Created by 인터웍스_맥북 on 2/5/24.
+//  Created by  on 2/5/24.
 //
 
 import SwiftUI
