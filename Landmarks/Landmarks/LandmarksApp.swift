@@ -12,8 +12,7 @@ struct LandmarksApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            var landmark: Landmark
-            LandmarkRow(landmark: landmarks[0])
+            LandmarkList()
         }
     }
 }

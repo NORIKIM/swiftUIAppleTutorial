@@ -18,6 +18,7 @@
 		CEDF52242B70AA1C00EF90EC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF52232B70AA1C00EF90EC /* ModelData.swift */; };
 		CEDF52282B71C39E00EF90EC /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF52272B71C39E00EF90EC /* LandmarkRow.swift */; };
 		CEDF522A2B72045000EF90EC /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF52292B72045000EF90EC /* LandmarkList.swift */; };
+		CEDF522C2B721C6B00EF90EC /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF522B2B721C6B00EF90EC /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CEDF52232B70AA1C00EF90EC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		CEDF52272B71C39E00EF90EC /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		CEDF52292B72045000EF90EC /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		CEDF522B2B721C6B00EF90EC /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				258D69D82B4442BE00FA01B1 /* EmojiImage.swift */,
 				CEDF52272B71C39E00EF90EC /* LandmarkRow.swift */,
 				CEDF52292B72045000EF90EC /* LandmarkList.swift */,
+				CEDF522B2B721C6B00EF90EC /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				CEDF521D2B706DC700EF90EC /* MapView.swift in Sources */,
 				258D69C62B3ADC7700FA01B1 /* LandmarksApp.swift in Sources */,
 				CEDF522A2B72045000EF90EC /* LandmarkList.swift in Sources */,
+				CEDF522C2B721C6B00EF90EC /* LandmarkDetail.swift in Sources */,
 				258D69D92B4442BE00FA01B1 /* EmojiImage.swift in Sources */,
 				CEDF52212B70A52000EF90EC /* Landmark.swift in Sources */,
 				CEDF52282B71C39E00EF90EC /* LandmarkRow.swift in Sources */,
