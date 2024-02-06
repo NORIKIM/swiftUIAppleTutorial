@@ -66,3 +66,32 @@ asset에 추가한 이미지를 띄워보자
 
 ​	
 
+## identifiable
+
+어떤 모델에 식별자가 필요할 때 사용되는 프로토콜
+
+id 프로퍼티를 반드시 선언해야 하며 생성된 인스턴스를 비교할 수 있게 된다.
+
+```swift
+struct Landmark: ..., identifiable {
+  var id: Int
+  ...
+}
+```
+
+
+
+만약, List에 이 프로토콜을 적용하지 않을 경우엔 List를 초기화 할 때 파라미터값으로 id를 전달해주어야 한다.
+
+```swift
+struct LandmarkList: View {
+    var body: some View {
+        List(landmarks, id: .\id) { landmark in
+            ...
+        }
+    }
+}
+```
+
+
+
