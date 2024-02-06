@@ -21,6 +21,9 @@ struct LandmarkRow: View {
     }
 }
 
-#Preview {
-    LandmarkRow(landmark: landmarks[0])
+#Preview("Emoji") {
+    Group {
+        LandmarkRow(landmark: landmarks[0])
+        LandmarkRow(landmark: landmarks[1])
+    }
 }
