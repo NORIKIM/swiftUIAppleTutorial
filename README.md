@@ -102,3 +102,69 @@ struct LandmarkList: View {
 preview에 보이는 디바이스의 캔버스 설정을 할 수 있다.
 
 다크모드, 라이트모드 / 세로 모드, 가로모드 / 글씨크기
+
+
+
+## List vs forEach
+
+Handling user input 파트에서 
+
+```swift
+List(someModelList) { ... }
+```
+
+->
+
+```swift
+List {
+  forEach(someModelList) { ... }
+}
+```
+
+이렇게 수정하도록 가이드 하고 
+
+> To combine static and dynamic views in a list, or to combine two or more different groups of dynamic views, use the `ForEach` type instead of passing your collection of data to `List`.
+
+위와 같은 설명을 덧붙이는데 잘 이해가 가지 않아 찾아보았다.
+
+
+
+**forEach**
+
+- 데이터를 전달하기만 할 뿐 뷰의 졍렬에 대해 관여하지 않는다
+
+- 단일 컨테이너뷰
+
+- for-loop 동작
+
+
+
+**List**
+
+- 여러 뷰를 함께 구성할 수 있다
+
+- 단일 셀 유형으로만 구성되는 목록을 원하는 경우 초기화 작업에서 forEach처럼 사용가능 'List(1 ..< 5)'
+
+- 스크롤이 가능하다
+
+- UITableView 처럼 동작
+
+
+
+**forEach + List**
+
+- forEach를 List 안에 사용하여 동적/정적 콘텐츠를 모두 가질 수 있다
+
+  - = List는 셀을 재사용 한다 = forEach안의 데이터, 뷰 모두 재사용 된다.
+
+  - 콘텐츠 유형이 다른 두 배열을 기반으로 List를 만들경우 사용할 수 있다.
+
+- onMove, onDelete... 사용가능
+
+
+
+참고: 
+
+https://stackoverflow.com/questions/60900285/list-or-listforeach-the-right-approach-in-swiftui
+
+https://stackoverflow.com/questions/56535326/what-is-the-difference-between-list-and-foreach-in-swiftui
