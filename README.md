@@ -95,3 +95,10 @@ struct LandmarkList: View {
 
 
 
+## Canvas Device Setting
+
+<img width=300 src="https://github.com/NORIKIM/swiftUIAppleTutorial/assets/31604976/8465a1df-8769-48c6-9cf7-7634e364628f">
+
+preview에 보이는 디바이스의 캔버스 설정을 할 수 있다.
+
+다크모드, 라이트모드 / 세로 모드, 가로모드 / 글씨크기
