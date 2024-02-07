@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct EmojiImage: View {
+    var image: Image
     var body: some View {
-        Image("emoji")
+        image
             .clipShape(Circle())
             .overlay {
                 Circle().stroke(.white, lineWidth: 4)
@@ -20,6 +21,6 @@ struct EmojiImage: View {
 
 struct EmojiImage_Previews: PreviewProvider {
     static var previews: some View {
-        EmojiImage()
+        EmojiImage(image: Image("emoji"))
     }
 }
