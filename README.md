@@ -15,7 +15,7 @@ Selectable 기능을 사용하면 preview에 보이는 컴포넌트들을 하나
 
 위와 같이 해당 컴포넌트의 스타일이나 사이즈 등을 빠르게 설정할 수 있다.
 
-
+<br>
 
 ## Spacer
 
@@ -25,13 +25,15 @@ Stack 내의 컴포넌트들이 디바이스 전체 너비를 사용하도록 �
 
 위와 같이 뷰들이 양쪽으로 분리 되었따~
 
-
+<br>
 
 ## Embed
 
 코드 내의 컴포넌트 위에 마우스 포인터를 두고 'comman+click' 하게 되면 해당 컴포넌트를 stack 등에 embed 할 수 있다
 
 <img width="306" alt="스크린샷 2023-12-28 오후 4 11 05" src="https://github.com/NORIKIM/swiftUIAppleTutorial/assets/31604976/fd878a37-fef2-4a8e-b4bf-ec429ab3876f">
+
+
 
 ## Custom Image View
 
@@ -93,7 +95,7 @@ struct LandmarkList: View {
 }
 ```
 
-
+<br>
 
 ## Canvas Device Setting
 
@@ -103,7 +105,7 @@ preview에 보이는 디바이스의 캔버스 설정을 할 수 있다.
 
 다크모드, 라이트모드 / 세로 모드, 가로모드 / 글씨크기
 
-
+<br>
 
 ## List vs forEach
 
@@ -168,3 +170,31 @@ List {
 https://stackoverflow.com/questions/60900285/list-or-listforeach-the-right-approach-in-swiftui
 
 https://stackoverflow.com/questions/56535326/what-is-the-difference-between-list-and-foreach-in-swiftui
+
+
+
+## @State
+
+뷰 내부의 특정 상태를 저장하고 해당 상태가 변경될 때 자동으로 뷰를 다시 그려주는 property wrapper이다.
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    // @State 속성
+    @State private var counter = 0
+
+    var body: some View {
+        VStack {
+            Text("Counter: \(counter)")
+            Button("Increment") {
+                // @State 속성의 값을 변경
+                counter += 1
+            }
+        }
+    }
+}
+```
+
+
+
