@@ -198,3 +198,8 @@ struct ContentView: View {
 
 
 
+## @Obsevable
+
+Observation을 사용하면 property wrapper나 binding없이도 데이터의 변경에 따라 view를 업데이트 할 수 있게 해준다. (iOS 17 이상 필요)
+
+(아직은 잘 모르겠음 공부해서 추가 예정...)
