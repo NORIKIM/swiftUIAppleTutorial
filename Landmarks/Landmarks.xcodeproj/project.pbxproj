@@ -14,6 +14,7 @@
 		258D69D92B4442BE00FA01B1 /* EmojiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D69D82B4442BE00FA01B1 /* EmojiImage.swift */; };
 		CE2F0F062C74556E00F542F2 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0F052C74556E00F542F2 /* FavoriteButton.swift */; };
 		CE2F0F0C2C75AB1000F542F2 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0F0B2C75AB1000F542F2 /* HexagonParameters.swift */; };
+		CE2F0F0E2C75AE4200F542F2 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0F0D2C75AE4200F542F2 /* BadgeBackground.swift */; };
 		CEDF521D2B706DC700EF90EC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF521C2B706DC700EF90EC /* MapView.swift */; };
 		CEDF521F2B70A4F300EF90EC /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = CEDF521E2B70A4F300EF90EC /* landmarkData.json */; };
 		CEDF52212B70A52000EF90EC /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF52202B70A52000EF90EC /* Landmark.swift */; };
@@ -32,6 +33,7 @@
 		258D69D82B4442BE00FA01B1 /* EmojiImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiImage.swift; sourceTree = "<group>"; };
 		CE2F0F052C74556E00F542F2 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		CE2F0F0B2C75AB1000F542F2 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		CE2F0F0D2C75AE4200F542F2 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		CEDF521C2B706DC700EF90EC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		CEDF521E2B70A4F300EF90EC /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		CEDF52202B70A52000EF90EC /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				258D69C72B3ADC7700FA01B1 /* ContentView.swift */,
 				CE2F0F0B2C75AB1000F542F2 /* HexagonParameters.swift */,
+				CE2F0F0D2C75AE4200F542F2 /* BadgeBackground.swift */,
 				CE2F0F072C7456FD00F542F2 /* Landmarks */,
 				CE2F0F082C74571700F542F2 /* Helper */,
 			);
@@ -215,6 +218,7 @@
 				CE2F0F0C2C75AB1000F542F2 /* HexagonParameters.swift in Sources */,
 				CEDF522A2B72045000EF90EC /* LandmarkList.swift in Sources */,
 				CEDF522C2B721C6B00EF90EC /* LandmarkDetail.swift in Sources */,
+				CE2F0F0E2C75AE4200F542F2 /* BadgeBackground.swift in Sources */,
 				258D69D92B4442BE00FA01B1 /* EmojiImage.swift in Sources */,
 				CEDF52212B70A52000EF90EC /* Landmark.swift in Sources */,
 				CEDF52282B71C39E00EF90EC /* LandmarkRow.swift in Sources */,
