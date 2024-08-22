@@ -32,7 +32,15 @@ struct HikeView: View {
                         .labelStyle(.iconOnly)
                         .imageScale(.large)
                         .rotationEffect(.degrees(showDetail ? 90 : 0))
+                    /*
+                     아래 주석 처리한 애니메이션 적용 시 버튼이 돌아가는 애니메이션은 안보임
+                     .animation(nil, value: showDetail)
+                     .animation(.spring(), value: showDetail)
+                     */
+                        //.animation(nil, value: showDetail)
+                        .scaleEffect(showDetail ? 1.5 : 1)
                         .padding()
+                        //.animation(.spring(), value: showDetail)
                 }
             }
 
