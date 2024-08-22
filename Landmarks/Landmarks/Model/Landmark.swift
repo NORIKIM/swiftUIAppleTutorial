@@ -17,6 +17,13 @@ struct Landmark: Hashable, Codable, Identifiable {
     var description: String
     var isFavorite: Bool
     
+    var category: Category
+    enum Category: String, CaseIterable, Codable {
+        case lakes = "Lakes"
+        case rivers = "Rivers"
+        case mountains = "Mountains"
+    }
+    
     // asset 이미지 이름 읽어오기
     private var imageName: String
     var image: Image {
