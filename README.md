@@ -203,3 +203,20 @@ struct ContentView: View {
 Observation을 사용하면 property wrapper나 binding없이도 데이터의 변경에 따라 view를 업데이트 할 수 있게 해준다. (iOS 17 이상 필요)
 
 (아직은 잘 모르겠음 공부해서 추가 예정...)
+
+
+## View 띄우기
+UIKit에서 viewController를 기존 viewController위에 모달 처럼 띄우던 방식처럼
+SwiftUI에서는 기본적으로 sheet 형식과 fullScreenCover 방식이 지원된다.
+
+```swift
+Button {
+ // code
+} label: {
+  Label("View 띄우기", systemImage: "person.crop.circle")
+}
+.sheet(isPresented: $isShowing) {
+  // code
+}
+```
+이런식으로 작성해주면 아래에서 위로 올라오는 화면을 다 덮지 않는 View가 띄워진다.
