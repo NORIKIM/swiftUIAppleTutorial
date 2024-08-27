@@ -31,6 +31,10 @@ struct Landmark: Hashable, Codable, Identifiable {
         Image(imageName)
     }
     
+    var featureImage: Image? {
+        isFeatured ? Image(imageName + "_feature") : nil
+    }
+    
     // landmark location from json data
     struct Coordinates: Hashable, Codable {
         var latitude: Double
